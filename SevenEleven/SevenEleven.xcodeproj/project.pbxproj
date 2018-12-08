@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F097CCE219BAD0E00E9E369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F097CCD219BAD0E00E9E369 /* AppDelegate.swift */; };
+		7F097CD0219BAD0E00E9E369 /* SevenElevenGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F097CCF219BAD0E00E9E369 /* SevenElevenGameViewController.swift */; };
+		7F097CD3219BAD0E00E9E369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F097CD1219BAD0E00E9E369 /* Main.storyboard */; };
+		7F097CD5219BAD1100E9E369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F097CD4219BAD1100E9E369 /* Assets.xcassets */; };
+		7F097CD8219BAD1100E9E369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F097CD6219BAD1100E9E369 /* LaunchScreen.storyboard */; };
+		7F097CE0219BBC8100E9E369 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F097CDF219BBC8100E9E369 /* Dice.swift */; };
+		7F097D00219BBE7D00E9E369 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F097CFF219BBE7D00E9E369 /* Game.swift */; };
+		7F0B53EE21B6EF9E0007E3E6 /* GameMainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B53ED21B6EF9E0007E3E6 /* GameMainScreenViewController.swift */; };
+		7F7B960521B91C9100DF9215 /* GameRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B960421B91C9100DF9215 /* GameRulesViewController.swift */; };
+		7F7B960921B92AB700DF9215 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B960821B92AB700DF9215 /* SettingsTableViewController.swift */; };
+		7F85E605219EC55E00F95EE9 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85E604219EC55E00F95EE9 /* DiceView.swift */; };
+		7FC564EC21ACD5A900F25FBF /* BetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC564EB21ACD5A900F25FBF /* BetButton.swift */; };
+		7FF23D3021BA7D0200B92C49 /* bensound-thelounge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FF23D2F21BA7D0200B92C49 /* bensound-thelounge.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F097CCA219BAD0E00E9E369 /* SevenEleven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenEleven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F097CCD219BAD0E00E9E369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F097CCF219BAD0E00E9E369 /* SevenElevenGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenElevenGameViewController.swift; sourceTree = "<group>"; };
+		7F097CD2219BAD0E00E9E369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F097CD4219BAD1100E9E369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F097CD7219BAD1100E9E369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F097CD9219BAD1100E9E369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F097CDF219BBC8100E9E369 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		7F097CFF219BBE7D00E9E369 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7F0B53ED21B6EF9E0007E3E6 /* GameMainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMainScreenViewController.swift; sourceTree = "<group>"; };
+		7F7B960421B91C9100DF9215 /* GameRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesViewController.swift; sourceTree = "<group>"; };
+		7F7B960821B92AB700DF9215 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		7F85E604219EC55E00F95EE9 /* DiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		7FC564EB21ACD5A900F25FBF /* BetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetButton.swift; sourceTree = "<group>"; };
+		7FF23D2F21BA7D0200B92C49 /* bensound-thelounge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-thelounge.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F097CC7219BAD0E00E9E369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F097CC1219BAD0E00E9E369 = {
+			isa = PBXGroup;
+			children = (
+				7F097CCC219BAD0E00E9E369 /* SevenEleven */,
+				7F097CCB219BAD0E00E9E369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F097CCB219BAD0E00E9E369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F097CCA219BAD0E00E9E369 /* SevenEleven.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F097CCC219BAD0E00E9E369 /* SevenEleven */ = {
+			isa = PBXGroup;
+			children = (
+				7F097CCD219BAD0E00E9E369 /* AppDelegate.swift */,
+				7F097CCF219BAD0E00E9E369 /* SevenElevenGameViewController.swift */,
+				7F0B53ED21B6EF9E0007E3E6 /* GameMainScreenViewController.swift */,
+				7F7B960421B91C9100DF9215 /* GameRulesViewController.swift */,
+				7F7B960821B92AB700DF9215 /* SettingsTableViewController.swift */,
+				7F097CDF219BBC8100E9E369 /* Dice.swift */,
+				7F85E604219EC55E00F95EE9 /* DiceView.swift */,
+				7FC564EB21ACD5A900F25FBF /* BetButton.swift */,
+				7F097CFF219BBE7D00E9E369 /* Game.swift */,
+				7F097CD1219BAD0E00E9E369 /* Main.storyboard */,
+				7FF23D2F21BA7D0200B92C49 /* bensound-thelounge.mp3 */,
+				7F097CD4219BAD1100E9E369 /* Assets.xcassets */,
+				7F097CD6219BAD1100E9E369 /* LaunchScreen.storyboard */,
+				7F097CD9219BAD1100E9E369 /* Info.plist */,
+			);
+			path = SevenEleven;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F097CC9219BAD0E00E9E369 /* SevenEleven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F097CDC219BAD1100E9E369 /* Build configuration list for PBXNativeTarget "SevenEleven" */;
+			buildPhases = (
+				7F097CC6219BAD0E00E9E369 /* Sources */,
+				7F097CC7219BAD0E00E9E369 /* Frameworks */,
+				7F097CC8219BAD0E00E9E369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SevenEleven;
+			productName = SevenEleven;
+			productReference = 7F097CCA219BAD0E00E9E369 /* SevenEleven.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F097CC2219BAD0E00E9E369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "hunkar lule";
+				TargetAttributes = {
+					7F097CC9219BAD0E00E9E369 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 7F097CC5219BAD0E00E9E369 /* Build configuration list for PBXProject "SevenEleven" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F097CC1219BAD0E00E9E369;
+			productRefGroup = 7F097CCB219BAD0E00E9E369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F097CC9219BAD0E00E9E369 /* SevenEleven */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F097CC8219BAD0E00E9E369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F097CD8219BAD1100E9E369 /* LaunchScreen.storyboard in Resources */,
+				7F097CD5219BAD1100E9E369 /* Assets.xcassets in Resources */,
+				7F097CD3219BAD0E00E9E369 /* Main.storyboard in Resources */,
+				7FF23D3021BA7D0200B92C49 /* bensound-thelounge.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F097CC6219BAD0E00E9E369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F097CD0219BAD0E00E9E369 /* SevenElevenGameViewController.swift in Sources */,
+				7F85E605219EC55E00F95EE9 /* DiceView.swift in Sources */,
+				7F097CE0219BBC8100E9E369 /* Dice.swift in Sources */,
+				7F0B53EE21B6EF9E0007E3E6 /* GameMainScreenViewController.swift in Sources */,
+				7F7B960521B91C9100DF9215 /* GameRulesViewController.swift in Sources */,
+				7F097CCE219BAD0E00E9E369 /* AppDelegate.swift in Sources */,
+				7F097D00219BBE7D00E9E369 /* Game.swift in Sources */,
+				7FC564EC21ACD5A900F25FBF /* BetButton.swift in Sources */,
+				7F7B960921B92AB700DF9215 /* SettingsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F097CD1219BAD0E00E9E369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F097CD2219BAD0E00E9E369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F097CD6219BAD1100E9E369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F097CD7219BAD1100E9E369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F097CDA219BAD1100E9E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F097CDB219BAD1100E9E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F097CDD219BAD1100E9E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WF2873T49;
+				INFOPLIST_FILE = SevenEleven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunkarlule.SevenEleven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F097CDE219BAD1100E9E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WF2873T49;
+				INFOPLIST_FILE = SevenEleven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunkarlule.SevenEleven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F097CC5219BAD0E00E9E369 /* Build configuration list for PBXProject "SevenEleven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F097CDA219BAD1100E9E369 /* Debug */,
+				7F097CDB219BAD1100E9E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F097CDC219BAD1100E9E369 /* Build configuration list for PBXNativeTarget "SevenEleven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F097CDD219BAD1100E9E369 /* Debug */,
+				7F097CDE219BAD1100E9E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F097CC2219BAD0E00E9E369 /* Project object */;
+}
